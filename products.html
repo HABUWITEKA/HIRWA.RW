@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hirwa Supply | Products</title>
+	<link rel="stylesheet" type="text/css" href="Css/style.css">
+	<link rel="stylesheet" type="text/css" href="Css/style2.css">
+	<link rel="stylesheet" type="text/css" href="Css/footer.css">
+	<link rel="stylesheet" type="text/css" href="Css/style3.css">
+	<link rel="icon" type="image/png" href="images/profile.png">
+   <style>
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
+</head>
+<body>
+<!-- Logo of the company -->
+<img class="logo" src="images/profile.png">
+<!-- Login/Register navigation bars -->
+<nav id="login_nav">
+	<a class="credentials" href="login.html">Sign in</a>
+	<a class="credentials" href="register.html">Register</a>
+</nav>
+<!-- Quick links on the website navigation bar -->
+<div id="quick1">
+	<a class="quick_nav wer" href="index.html"><img style="width: 20px;height: 20px;" src="icons/home.png"><br>HOME</a>
+</div>
+
+<div id="quick2">
+	<a class="quick_nav" href="products.html"><img style="width: 20px;height: 20px;" src="icons/product.png"><br>PRODUCTS</a>
+</div>
+
+<div id="quick3">
+	<a class="quick_nav" href="aboutus.html"><img style="width: 20px;height: 20px;" src="icons/aboutus.png"><br>ABOUT US</a>
+</div>
+<!-- END! -->
+<!--  -->
+
+<!-- Categories of products we have -->
+<div id="categories" style="width: 1351px;">
+	<a class="cat" href="tools.html">Tools</a>
+	<a class="cat" href="medecines.html">Medecines</a>
+	<a class="cat" href="inputs.html">Inputs</a>
+	<a class="cat" href="freshfood.html">Fresh Food</a>
+</div>
+
+<div class="mySlides fade">
+  <img class="slideimages" src="images/tractor.jpg">
+
+<div style="top:-80px;position: relative;">
+<p class="prdctname" style="font-size: 80px; left:130px;position: absolute;">Tractor</p>
+<p class="price" style="font-size: 80px; left:130px;position: absolute;">Rwf 878,000</p></div>
+</div>
+
+<div class="mySlides fade">
+  <img class="slideimages" src="images/avocado.jpg">
+
+<div style="top:-80px;position: relative;">
+<p class="prdctname" style="font-size: 80px; left:130px;position: absolute;">Avocado</p>
+<p class="price" style="font-size: 80px; left:130px;position: absolute;">Rwf 80/piece</p></div>
+</div>
+
+<a  onclick="plusSlides(-1)"><img class="arrowslide leftslide" src="icons/arrow_leftt.svg"></a>
+<a  onclick="plusSlides(1)"><img class="arrowslide rightslide" src="icons/arrow_right.svg"></a>
+
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<!-- promo to attract registration -->
+<div id="promo">
+	<p class="promotext">It is that season of the year!</p>
+	<p class="saveup">SAVE UP TO 30%</p>
+	<button class="btn registerpromobtn">REGISTER</button>
+</div>
+
+<!-- other products -->
+<div id="firstrow">
+   <div class="rectangle">
+   	<p class="name">Nutri Power</p>
+   	<p class="priceprdct priceprdct1">Rwf 1280/piece</p>
+   	<button class="btn btn1">Order</button>
+   </div>
+   <div class="rectangle two">
+   	<p class="name name5">Cereli</p>
+   	<p class="priceprdct priceprdct5">Rwf 100/kg</p>
+   	<button class="btn btn2">Order</button>
+   </div>
+   <div class="rectangle three">
+   	<p class="name name6">Sheet</p>
+   	<p class="priceprdct priceprdct6">Rwf 40,000/piece</p>
+   	<button class="btn btn3">Order</button>
+ </div>
+   <img class="productimg prdct1" src="images/med1.jpg">
+   <img class="productimg prdct2" src="images/celeri.jpg">
+   <img class="productimg prdct3" src="images/mat11.jpeg">
+ </div>
+
+ <div id="secondrow">
+
+   <div class="rectangle">
+   	<p class="name">Nutri Power</p>
+   	<p class="priceprdct priceprdct1">Rwf 1280/piece</p>
+   	<button class="btn btn1">Order</button>
+   </div>
+   <div class="rectangle two">
+   	<p class="name name5">Cereli</p>
+   	<p class="priceprdct priceprdct5">Rwf 100/kg</p>
+   	<button class="btn btn2">Order</button>
+   </div>
+   <div class="rectangle three">
+   	<p class="name name6">Sheet</p>
+   	<p class="priceprdct priceprdct6">Rwf 40,000/piece</p>
+   	<button class="btn btn3">Order</button>
+ </div>
+   <img class="productimg prdct1" src="images/med1.jpg">
+   <img class="productimg prdct2" src="images/celeri.jpg">
+   <img class="productimg prdct3" src="images/mat11.jpeg">
+ </div>
+
+ <div id="thirdrow">
+
+   <div class="rectangle">
+   	<p class="name">Nutri Power</p>
+   	<p class="priceprdct priceprdct1">Rwf 1280/piece</p>
+   	<button class="btn btn1">Order</button>
+   </div>
+   <div class="rectangle two">
+   	<p class="name name5">Cereli</p>
+   	<p class="priceprdct priceprdct5">Rwf 100/kg</p>
+   	<button class="btn btn2">Order</button>
+   </div>
+   <div class="rectangle three">
+   	<p class="name name6">Sheet</p>
+   	<p class="priceprdct priceprdct6">Rwf 40,000/piece</p>
+   	<button class="btn btn3">Order</button>
+ </div>
+   <img class="productimg prdct1" src="images/med1.jpg">
+   <img class="productimg prdct2" src="images/celeri.jpg">
+   <img class="productimg prdct3" src="images/mat11.jpeg">
+ </div>
+
+ <div id="fourthrow">
+
+   <div class="rectangle">
+   	<p class="name">Nutri Power</p>
+   	<p class="priceprdct priceprdct1">Rwf 1280/piece</p>
+   	<button class="btn btn1">Order</button>
+   </div>
+   <div class="rectangle two">
+   	<p class="name name5">Cereli</p>
+   	<p class="priceprdct priceprdct5">Rwf 100/kg</p>
+   	<button class="btn btn2">Order</button>
+   </div>
+   <div class="rectangle three">
+   	<p class="name name6">Sheet</p>
+   	<p class="priceprdct priceprdct6">Rwf 40,000/piece</p>
+   	<button class="btn btn3">Order</button>
+ </div>
+   <img class="productimg prdct1" src="images/med1.jpg">
+   <img class="productimg prdct2" src="images/celeri.jpg">
+   <img class="productimg prdct3" src="images/mat11.jpeg">
+ </div>
+
+ <!-- the footer -->
+<footer class="footer footerproducts">
+	<p class="toptitle contacts">Contact us</p>
+   <img class="footerlinks phoneicon" src="icons/phone.svg">
+   <p class="phonenumber">+250 787 282 620</p>
+   <img class="footerlinks emailicon" src="icons/mail.svg">
+   <p class="email">Support@hirwa.rw</p>
+   <img class="footerlinks locationicon" src="icons/map.svg">
+   <p class="location">KG 7, AVE</p>
+
+   <!-- Links%quicklinks -->
+   <p class="toptitle links">Links</p>
+   <img class="footerlinks homeicon" src="icons/homee.svg">
+   <a href="index.html"><p class="quicklink link1">Home</p></a>
+   <img class="footerlinks producticon" src="icons/cart.svg">
+   <a href="index.html"><p class="quicklink link2">Products</p></a>
+   <img class="footerlinks aboutusicon" src="icons/info.svg">
+   <a href="index.html"><p class="quicklink link3">About us</p></a>
+
+   <!-- subscribe -->
+   <p class="subscribe">Subscribe to our newsletter</p>
+   <form>
+      <input type="text" name="subscribe" placeholder="Your email" class="subscribeinput">
+      <input type="submit" name="subscribebutton" value="Subscribe" class="subscribebutton">
+   </form>
+   <!-- lineseparator -->
+   <div class="lineseparator"></div>
+   <!-- social medias -->
+   <div id="socialicons">
+   <img class="socialmedia" src="icons/facebook.svg">
+   <img class="socialmedia" src="icons/instagram.svg">
+   <img class="socialmedia" src="icons/twitter.svg">
+   <img class="socialmedia" src="icons/youtube.svg">
+</div>
+<p class="copyrights">Copyrights Hirwa Supply Ltd. 2019</p>
+</footer>
+</body>

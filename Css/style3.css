@@ -1,0 +1,365 @@
+.slideimages{
+	width: 1359px;
+	height: 540px;
+	top:93px;
+	left:-10px;
+	position: absolute;
+}
+#promo{
+	height:240px;
+	width: 1441px;
+	background-color: #808080;
+	left:-100px;
+	top:545px;
+	position:relative;
+}
+.promotext{
+	color: white;
+	font-family: verdana;
+	font-size: 30px;
+	padding-left: 480px;
+	padding-top: 30px;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.saveup{
+	color: green;
+	font-family: verdana;
+	font-size: 40px;
+	padding-left: 550px;
+	top: 40px;
+	position: absolute;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.registerpromobtn{
+	left:650px;
+	top:160px;
+	position: absolute;
+	width:200px;
+}
+#firstrow{
+	top:750px;
+	margin-left: 100px;
+	position: relative;
+}
+#secondrow{
+	top:1050px;
+	margin-left: 100px;
+	position: relative;
+}
+#thirdrow{
+	top:1350px;
+	margin-left: 100px;
+	position: relative;
+}
+#fourthrow{
+	top:1650px;
+	margin-left: 100px;
+	position: relative;
+}
+.footerproducts{
+	width:1351px;
+	top:1660px;
+	left:-10px;
+	position: relative;
+}
+#bars{
+	top:120px;
+	left:-20px;
+	position: absolute;
+}
+.typetitle{
+	color: green;
+	font-family: Corbel Light;
+	font-size: 40px;
+	letter-spacing: 4px;
+	top:90px;
+	position: absolute;
+	margin-left: 480px;
+}
+.registertitle{
+	color: green;
+	font-family: Corbel Light;
+	font-size: 40px;
+	letter-spacing: 4px;
+	top:90px;
+	position: absolute;
+	margin-left: 560px;
+}
+.essential{
+	margin-top: -380px;
+}
+input[type=text]{
+     border:none;
+     border-bottom: 2px solid green;
+     background-color: transparent;
+     color: green;
+     font-family: verdana;
+     font-size: 12px;
+}
+input[type=password]{
+     border:none;
+     border-bottom: 2px solid green;
+     background-color: transparent;
+     color: green;
+     font-family: verdana;
+     font-size: 12px;
+}
+input[type=text]:focus{
+   border:2px solid white;
+   background-color: transparent;
+   color: green;
+}
+input[type=password]:focus{
+   border:2px solid white;
+   background-color: transparent;
+   color: green;
+}
+input[type=password]:after{
+	background-color: #451084;
+}
+.registerform{
+	top:200px;
+	left:570px;
+	position: absolute;
+}
+#titleform{
+	width: 150px;
+	left:18px;
+	position: absolute;
+}
+::placeholder{
+	color: #808080;
+}
+#fullname{
+	width: 350px;
+	top:50px;
+	left:-80px;
+	position: absolute;
+}
+#email{
+	width: 350px;
+	top:100px;
+	left:-80px;
+	position: absolute;
+}
+#telephone{
+	width: 350px;
+	top:150px;
+	left:-80px;
+	position: absolute;
+}
+.registersubmit{
+	width: 200px;
+	top:200px;
+	position: absolute;
+}
+.alt{
+	color: green;
+	font-family: Corbel Light;
+	font-size: 18px;
+	top:440px;
+	left:490px;
+	position: absolute;
+	text-decoration: none;
+	letter-spacing: 3px;
+}
+.altlogin{
+	top:130px;
+	left:80px;
+	position: absolute;
+}
+.footerregister{
+	top:30px;
+	position: relative;
+}
+.rectangleforqs{
+	width:300px;
+	height: 80px;
+	background-color: green;
+}
+.q1{
+	top:120px;
+	position: absolute;
+}
+.q2{
+	top:120px;
+	left:500px;
+	position: absolute;
+}
+.q3{
+	top:120px;
+	left:980px;
+	position: absolute;
+}
+.titleqs{
+	color: #808080;
+	font-size: 24px;
+	font-family: Corbel Light;
+	padding-left: 18px;
+	top: 15px;
+	position: absolute;
+}   
+.Questions{
+	color: #808080;
+	font-family: Corbel Light;
+	font-size: 18px;
+	letter-spacing: 3px;
+	width: 300px;
+}      
+.qn1{
+	top:200px;
+	left:20px;
+	position: absolute;
+}
+#MYDIV{
+	color: #808080;
+	font-family: Corbel Light;
+	font-size: 18px;
+	letter-spacing: 3px;
+	width: 300px;
+	padding-top: 210px;
+}
+.qn2{
+	top:270px;
+	left:20px;
+	position: absolute;
+}  
+.qn3{
+	top:340px;
+	left:20px;
+	position: absolute;
+}     
+.qn4{
+	top:410px;
+	left:20px;
+	position: absolute;
+}
+.qn5{
+	top:200px;
+	left:520px;
+	position: absolute;
+}
+.qn6{
+	top:270px;
+	left:520px;
+	position: absolute;
+}  
+.qn7{
+	top:340px;
+	left:520px;
+	position: absolute;
+}     
+.qn8{
+	top:410px;
+	left:520px;
+	position: absolute;
+}
+
+.partner{
+	width:300px;
+	left:985px;
+	position:absolute;
+	color:#808080;
+	top:200px;
+	font-size: 25px;
+	font-family: Corbel Light;
+	text-align: center;
+}
+.q4{
+	top:500px;
+	position: absolute;
+}
+.q5{
+	top:500px;
+	left:500px;
+	position: absolute;
+}
+.q6{
+	top:500px;
+	left:980px;
+	position: absolute;
+}
+.qn9{
+	top:580px;
+	left:20px;
+	width: 300px;
+	position: absolute;
+}
+.qn10{
+	top:650px;
+	left:20px;
+	width: 300px;
+	position: absolute;
+}  
+.qn11{
+	top:720px;
+	left:20px;
+	width: 300px;
+	position: absolute;
+}     
+.qn12{
+	top:790px;
+	left:20px;
+	width: 300px;
+	position: absolute;
+}
+.qn13{
+	top:80px;
+	left:-460px;
+	position: absolute;
+}
+.qn14{
+	top:150px;
+	left:-460px;
+	width: 300px;
+	position: absolute;
+}  
+.qn15{
+	top:220px;
+	left:-460px;
+	width: 300px;
+	position: absolute;
+}     
+.qn16{
+	top:290px;
+	left:-460px;
+	width: 300px;
+	position: absolute;
+}
+.wecan{
+	width:300px;
+	left:0px;
+	position:absolute;
+	color:#808080;
+	top:70px;
+	font-size: 25px;
+	font-family: Corbel Light;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.livechat{
+	color: yellow;
+}
+.or{
+	width:300px;
+	position:absolute;
+	color:#808080;
+	top:120px;
+	position: absolute;
+	font-size: 25px;
+	font-family: Corbel Light;
+	text-align: center;
+	letter-spacing: 3px;
+}
+#another2{
+	top:40px;
+	position: absolute;
+}
+#another1{
+	top:50px;
+	position: absolute;
+}
+
+

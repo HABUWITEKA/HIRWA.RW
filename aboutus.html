@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAQ'S | Hirwa Supply </title>
+	<link rel="stylesheet" type="text/css" href="Css/style.css">
+	<link rel="stylesheet" type="text/css" href="Css/style2.css">
+	<link rel="stylesheet" type="text/css" href="Css/style3.css">
+	<link rel="stylesheet" type="text/css" href="Css/footer.css">
+	<link rel="icon" type="image/png" href="images/profile.png">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Popup container - can be anything you want */
+::placeholder{
+  color: #808080;
+};
+.popup {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+</style>
+</head>
+<body>
+<!-- Logo of the company -->
+<img class="logo" src="images/profile.png">
+<!-- Login/Register navigation bars -->
+<nav id="login_nav">
+	<a class="credentials" href="">Sign in</a>
+   <a class="credentials" href="register.html">Register</a>
+<div class="loginpage">
+   <form>
+      <input type="text" name="username" placeholder="Username" class="username">
+      <input type="password" name="passowrd" placeholder="Password" class="password">
+      <input type="submit" name="login" value="login" class="btn" id="loginbtn">
+   </form>
+   <p class="alt altlogin">No account yet?, <a href="register.html" style="color: #808080;">Register</a></p>
+</div>
+</nav>
+<!-- Quick links on the website navigation bar -->
+<div id="quick1">
+	<a class="quick_nav wer" href="index.html"><img style="width: 20px;height: 20px;" src="icons/home.png"><br>HOME</a>
+</div>
+
+<div id="quick2">
+	<a class="quick_nav" href="products.html"><img style="width: 20px;height: 20px;" src="icons/product.png"><br>PRODUCTS</a>
+</div>
+
+<div id="quick3">
+	<a class="quick_nav" href="aboutus.html"><img style="width: 20px;height: 20px;" src="icons/aboutus.png"><br>ABOUT US</a>
+</div>
+<!-- END! -->
+<!--  -->
+
+<!-- Categories of products we have -->
+<div id="categories" style="width: 1351px;">
+	<a class="cat" href="tools.html">Tools</a>
+	<a class="cat" href="medecines.html">Medecines</a>
+	<a class="cat" href="inputs.html">Inputs</a>
+	<a class="cat" href="freshfood.html">Fresh Food</a>
+</div>
+<div style="left:45px;position: absolute;top:10px;">
+<div class="rectangleforqs q1">
+	<img class="aboutusicons" style="padding-left: 120px;" src="icons/statistics.svg">
+	<p class="titleqs">Frequently Asked Questions</p>
+</div>
+<!-- Questions -->
+
+<div class="popup Questions qn1" onclick="myFunction()">Do you own all these type of goods?
+  <span class="popuptext" id="myPopup">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</span>
+</div>
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+<p class="Questions qn2">How do I cancel my order?</p>
+<p class="Questions qn3">When should one pay for the goods ordered?</p>
+<p class="Questions qn4">How long does it take to receive my order?</p>
+<div class="rectangleforqs q2">
+	<img class="aboutusicons" src="icons/settings.svg">
+	<p class="titleqs " style="padding-left: 75px;">Account Details</p>
+</div>
+<!-- Questions -->
+<p class="Questions qn5">How to change my password?</p>
+<p class="Questions qn6">How to change the username?</p>
+<p class="Questions qn7">How to delete my account?</p>
+<p class="Questions qn8">How to receive newsletters?</p>
+<div class="rectangleforqs q3">
+	<img class="aboutusicons" src="icons/partnership.png">
+	<p class="titleqs" style="padding-left: 35px;">Want to partner with us?</p>
+</div>
+<div id="another1">
+<p class="partner">Do you want to partner with us and appear on the website?
+
+<br><br>Simply email us at:<br><a style="color: yellow;text-decoration: none;" href="">partner@hirwa.rw</a></p></div>
+<div class="rectangleforqs q4">
+	<img class="aboutusicons" style="padding-left: 120px;" src="icons/statistics.svg">
+	<p class="titleqs">Frequently Asked Questions</p>
+</div>
+<div class="rectangleforqs q5">
+	<img class="aboutusicons" src="icons/settings.svg">
+	<p class="titleqs " style="padding-left: 75px;">Account Details</p>
+</div>
+<!-- Questions -->
+<p class="Questions qn9">How does Hirwa work?</p>
+<p class="Questions qn10">Where does Hirwa work from?</p>
+<p class="Questions qn11">Who is the founder of Hirwa?</p>
+<p class="Questions qn12">What does Hirwa do?</p>
+<div class="rectangleforqs q6">
+	<img class="aboutusicons" src="icons/message.svg">
+<p class="titleqs" style="padding-left: 48px;">Want to chat with us?</p>
+<!-- Questions -->
+<p class="Questions qn13">How to change my password?</p>
+<p class="Questions qn14">How to change the username?</p>
+<p class="Questions qn15">How to delete my account?</p>
+<p class="Questions qn16">How to receive newsletters?</p>
+<!-- live chat or support -->
+<div id="another2">
+<p class="wecan">We can  <a href="" style="color: yellow; text-decoration: none;">Live chat</a></p>
+<p class="or">Or<br>Simply email us at:<br><a href="" style="color: yellow;text-decoration: none;">support@hirwa.rw</a></p></div>
+</div>
+</div>
+<footer class="footer footerproducts" style="width: 1364px;top: 850px;position: absolute;left:-15px;">
+   <!-- Contact us -->
+
+   <p class="toptitle contacts">Contact us</p>
+   <img class="footerlinks phoneicon" src="icons/phone.svg">
+   <p class="phonenumber">+250 787 282 620</p>
+   <img class="footerlinks emailicon" src="icons/mail.svg">
+   <p class="email">Support@hirwa.rw</p>
+   <img class="footerlinks locationicon" src="icons/map.svg">
+   <p class="location">KG 7, AVE</p>
+
+   <!-- Links%quicklinks -->
+   <p class="toptitle links">Links</p>
+   <img class="footerlinks homeicon" src="icons/homee.svg">
+   <a href="index.html"><p class="quicklink link1">Home</p></a>
+   <img class="footerlinks producticon" src="icons/cart.svg">
+   <a href="index.html"><p class="quicklink link2">Products</p></a>
+   <img class="footerlinks aboutusicon" src="icons/info.svg">
+   <a href="index.html"><p class="quicklink link3">About us</p></a>
+
+   <!-- subscribe -->
+   <p class="subscribe">Subscribe to our newsletter</p>
+   <form>
+      <input type="text" name="subscribe" placeholder="Your email" class="subscribeinput">
+      <input type="submit" name="subscribebutton" value="Subscribe" class="subscribebutton">
+   </form>
+   <!-- lineseparator -->
+   <div class="lineseparator"></div>
+   <!-- social medias -->
+   <div id="socialicons">
+   <img class="socialmedia" src="icons/facebook.svg">
+   <img class="socialmedia" src="icons/instagram.svg">
+   <img class="socialmedia" src="icons/twitter.svg">
+   <img class="socialmedia" src="icons/youtube.svg">
+</div>
+<p class="copyrights">Copyrights Hirwa Supply Ltd. 2019</p>
+</footer>
+</div>
+</body>
+</html>

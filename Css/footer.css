@@ -1,0 +1,172 @@
+.footer{
+	background-color: #808080;
+	width: 1350px;
+	height: 330px;
+	top:2317px;
+	left:3px;
+	position: absolute;
+	font-family: Corbel Light;
+}
+::placeholder{
+	color: #808080;
+}
+.toptitle{
+	font-size: 25px;
+	color: white;
+	letter-spacing: 3px;
+}
+.contacts{
+	left:130px;
+	position: absolute;
+}
+.phonenumber{
+	top:30px;
+	left:170px;
+	font-size: 25px;
+	color: green;
+	position: absolute;
+}
+.email{
+	top:90px;
+	left:170px;
+	position: absolute;
+	font-size: 25px;
+	color: green;
+	position: absolute;
+}
+.location{
+	top:150px;
+	left:170px;
+	position: absolute;
+	font-size: 25px;
+	color: green;
+	position: absolute;
+}
+.links{
+	left:550px;
+	position: absolute;}
+
+.quicklink{
+    font-size: 25px;
+    color: green;
+    text-decoration: none;
+}
+.link1{
+	top:30px;
+    left:580px;
+    position: absolute;
+}
+.link2{
+	top:90px;
+	left:580px;
+	position: absolute;
+}
+.link3{
+	top: 150px;
+	left:580px;
+	position: absolute; 
+}
+
+.subscribe{
+	font-size: 25px;
+    color: green;
+    letter-spacing: 3px;
+    top:30px;
+    left:880px;
+    position: absolute; 
+}
+.subscribeinput{
+	top:100px;
+	left:900px;
+	position: absolute;
+	width: 300px;
+	height: 35px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	background-color: transparent;
+	color: white;
+	font-family: Corbel Light;
+	font-size: 18px;
+}
+.subscribebutton{
+	top:170px;
+	left:1020px;
+	position: absolute;
+	width: 100px;
+	height:30px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: transparent;
+	border-color: white;
+	color: green;
+	font-size: 20px;
+}
+.lineseparator{
+	background-color: white;
+	width: 1170px;
+	height: 2px;
+	top:270px;
+	position: absolute;
+	left:90px;
+}
+.socialmedia{
+	width: 30px;
+	height: 30px;
+	padding-left: 40px;
+	opacity: .8;
+}
+#socialicons{
+	top:290px;
+	position: absolute;
+	left: 520px;
+}
+.copyrights{
+	color: green;
+	font-size: 15px;
+	left:1020px;
+	top:280px;
+	position: absolute;
+}
+::placeholder{
+	color: white;
+}
+.aboutusicons{
+	width: 40px;
+	height: 40px;
+	padding-left: 130px;
+}
+.footerlinks{
+	width: 25px;
+	height: 25px;
+}
+.homeicon{
+	top:58px;
+	left:545px;
+	position: absolute;
+}
+.producticon{
+	top:118px;
+	left:545px;
+	position: absolute;
+}
+.aboutusicon{
+	top:178px;
+	left:545px;
+	position: absolute;
+}
+.phoneicon{
+	top:58px;
+	left:130px;
+	position: absolute;
+}
+.emailicon{
+    top: 118px;
+    left:130px;
+    position: absolute;
+}
+.locationicon{
+	top:178px;
+	left:130px;
+	position: absolute;
+}

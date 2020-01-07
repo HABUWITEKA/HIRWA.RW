@@ -1,0 +1,204 @@
+body{
+	background-color: #000000;
+}
+::placeholder{
+	color: #808080;
+}
+.logo{
+	width:63px ;
+	height:41px ;
+	border-radius: 4px;
+	left:630px;
+	top:1px;
+	position: absolute;
+}
+.credentials{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+#login_nav{
+	left: 1150px;
+	top:13px;
+	position: absolute;
+
+}
+
+.quick_nav{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 30px;
+	letter-spacing: 2px;
+	color: white;
+	font-family: verdana;
+	font-size: 12px;
+	text-decoration: none;
+}
+.wer{
+	padding-left: 13px;
+}
+#quick1{
+	left:30px;
+	position: absolute;
+}
+#quick2{
+	left:150px;
+	position: absolute;
+}
+#quick3{
+	left:300px;
+	position: absolute;
+}
+#categories{
+	top:45px;
+	left:-10px;
+	position: relative;
+	background-color: white;
+	width: 1351px;
+	height: 40px;
+}
+#categories a:hover{
+  opacity: .7;
+}
+.cat{
+	padding: 30px;
+	top:2px;
+	left:380px;
+	position: relative;
+	color: #808080;
+	text-decoration:none;
+	font-family: Corbel Light;
+	font-size: 25px;
+}
+.main{
+	width:700px;
+	height:350px;
+	left:320px;
+	top:70px;
+	position: relative;
+	border-color: #808080;
+	border-width: 4px;
+	border-style: solid;
+	opacity: .7;
+}
+.main-left{
+	border-color: #808080;
+	border-width: 4px;
+	border-style: solid;
+	left:-720px;
+	top:3px;
+	position: relative;
+	width:323px ;
+	height:200px ; 
+}
+.main-right{
+	border-color: #808080;
+	border-width: 4px;
+	border-style: solid;
+	left:1025px;
+	top:-210px;
+	position: relative;
+	width:308px ;
+	height:200px ; 
+}
+.prdctname{
+	color: white;
+	letter-spacing: 3px;
+	font-size: 40px;
+	font-family:verdana;
+	left:350px;
+	top:250px;
+	position: absolute; 
+}
+.price{
+	color: #808080;
+	font-size: 30px;
+	left:350px;
+	top:320px;
+	font-family: verdana;
+	position: absolute; 
+}
+.deduction{
+	color: #808080;
+	font-size: 20px;
+	left:350px;
+	top:380px;
+	font-family: verdana;
+	position: absolute;
+}
+.bar{
+	width: 155px;
+	height: 4px;
+	left:600px;
+	top:530px;
+	position: absolute; 
+	background-color: #808080;
+}
+#more{
+	color: #808080;
+	letter-spacing: 2px;
+	font-family: Corbel Light;
+	top:510px;
+	left:576px;
+	font-size: 30px;
+	position: absolute;
+}
+.rectangle{
+	background-color: white;
+	height: 200px;
+	width: 324px;
+	left:-80px;
+	position: relative;
+}
+.two{
+	left:410px;
+	top:0px;
+	position: absolute;
+}
+.three{
+	left:890px;
+	top:0px;
+	position: absolute;
+}
+#alld{
+	margin-left: 100px;
+	top:200px;
+	position: relative;
+}
+.loginpage{
+	background-color: white;
+	width: 409px;
+	height: 190px;
+    left: -210px;
+    top: 40px;
+    position: absolute;
+    z-index: 1000;
+ }
+.username{
+    margin-left: 110px;
+    margin-top: 20px;
+    width: 200px;
+    color: green;
+}
+.password{
+    margin-left: 110px;
+    margin-top: 20px;
+    width: 200px;
+    color: green;
+}
+.password:after{
+	color: red;
+}
+#loginbtn{
+	width: 100px;
+	height: 25px;
+	font-size: 20px;
+	top:100px;
+	left:165px;
+	position: absolute;
+   }
