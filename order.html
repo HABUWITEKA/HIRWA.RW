@@ -1,0 +1,79 @@
+<html>
+    <head>
+   <title> Order your product now!</title>
+	<link rel="stylesheet" type="text/css" href="Css/style.css">
+  <link rel="stylesheet" type="text/css" href="Css/style2.css">
+  <link rel="stylesheet" type="text/css" href="Css/style3.css">
+	<link rel="stylesheet" type="text/css" href="Css/footer.css">
+	<link rel="stylesheet" type="text/css" href="Css/style3.css">
+   <link rel="icon" type="image/png" href="images/profile.png" style="border-radius: 40px;">
+   <style>
+      #loginpage{
+  background-color: white;
+  width: 409px;
+  height: 190px;
+    left: -210px;
+    top: 40px;
+    position: absolute;
+    z-index: 1000;
+  display: none;
+ }
+   </style>
+   <script>
+      function openForm() {
+     document.getElementById("loginpage").style.display = "block";
+   }
+   function closeForm(){
+     document.getElementById("loginpage").style.display="none"
+   }
+   </script>
+    </head>
+    <body>
+     <!-- Logo of the company -->
+<img class="logo" src="images/profile.png">
+<!-- Login/Register navigation bars -->
+<nav id="login_nav">
+	<a class="credentials" href="#" onclick="openForm()">Sign in</a>
+   <a class="credentials" href="register.html">Register</a>
+   <div id="loginpage">
+      <form>
+         <input type="text" name="username" placeholder="Username" class="username">
+         <input type="password" name="passowrd" placeholder="Password" class="password">
+         <input type="submit" name="login" value="login" class="btn" id="loginbtn">
+      </form>
+      <p class="alt altlogin">No account yet?, 
+       <a href="register.html" style="color: #808080;">Register</a>
+     </p>
+     <a href="#" onclick="closeForm()">
+       <img src="icons/close.svg" style="width: 15px;height: 15px;left:390px;top: 5px;position: absolute;">
+     </a>
+   </div>
+</nav>
+<!-- Quick links on the website navigation bar -->
+<div id="quick1">
+	<a class="quick_nav wer" href="index.html"><img style="width: 20px;height: 20px;" src="icons/home.png"><br>HOME</a>
+</div>
+
+<div id="quick2">
+	<a class="quick_nav" href="products.html"><img style="width: 20px;height: 20px;" src="icons/product.png"><br>PRODUCTS</a>
+</div>
+
+<div id="quick3">
+	<a class="quick_nav" href="aboutus.html"><img style="width: 20px;height: 20px;" src="icons/aboutus.png"><br>ABOUT US</a>
+</div>
+<!-- END! -->
+<!--  -->
+
+<!-- Categories of products we have -->
+<div id="categories" style="width: 1361px;">
+	<a class="cat" href="tools.html">Tools</a>
+	<a class="cat" href="medecines.html">Medecines</a>
+	<a class="cat" href="inputs.html">Inputs</a>
+	<a class="cat" href="freshfood.html">Fresh Food</a>
+</div>
+<!-- Image of the product the user selected -->
+<img src="images/input12.jfif" style="width: 300px;height: 450px;left: 220px;top: 150px;position: absolute;">
+<p class="nameinorder">Name of the product</p>
+<p class="priceinorder">100,000 Rwf per Piece</p>
+    </body>
+</html>

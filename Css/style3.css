@@ -362,4 +362,22 @@ input[type=password]:after{
 	position: absolute;
 }
 
+.priceinorder{
+		color: green;
+		font-weight: 25px;
+		font-family: Verdana;
+		top:200px;
+		left:900px;
+		position: absolute;
+}
+.nameinorder{
+	    color: white;
+	    font-weight: bold;
+		font-weight: 25px;
+		font-family: Verdana;
+		top:200px;
+		left:900px;
+		position: absolute;
+
+}
 
