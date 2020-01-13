@@ -178,6 +178,9 @@ body{
     top: 40px;
     position: absolute;
     z-index: 1000;
+	display: none;
+	position: fixed;
+    
  }
 .username{
     margin-left: 110px;

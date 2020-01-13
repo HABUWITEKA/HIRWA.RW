@@ -10,22 +10,47 @@
   <style type="text/css">
     ::placeholder{
   color: #808080;
-};</style>
+}
+#loginpage{
+  background-color: white;
+  width: 409px;
+  height: 190px;
+    left: -210px;
+    top: 40px;
+    position: absolute;
+    z-index: 1000;
+  display: none;
+ }
+</style>
+<!-- Javascript to bring the pop up to sign in -->
+<script>
+   function openForm() {
+  document.getElementById("loginpage").style.display = "block";
+}
+function closeForm(){
+  document.getElementById("loginpage").style.display="none"
+}
+</script>
 </head>
 <body>
 <!-- Logo of the company -->
 <img class="logo" src="images/profile.png">
 <!-- Login/Register navigation bars -->
 <nav id="login_nav">
-	<a class="credentials" href="">Sign in</a>
+	<a class="credentials" href="#" onclick="openForm()">Sign in</a>
    <a class="credentials" href="register.html">Register</a>
-<div class="loginpage">
+<div id="loginpage">
    <form>
       <input type="text" name="username" placeholder="Username" class="username">
       <input type="password" name="passowrd" placeholder="Password" class="password">
       <input type="submit" name="login" value="login" class="btn" id="loginbtn">
    </form>
-   <p class="alt altlogin">No account yet?, <a href="register.html" style="color: #808080;">Register</a></p>
+   <p class="alt altlogin">No account yet?, 
+    <a href="register.html" style="color: #808080;">Register</a>
+  </p>
+  <a href="#" onclick="closeForm()">
+    <img src="icons/close.svg" style="width: 15px;height: 15px;left:390px;top: 5px;position: absolute;">
+  </a>
 </div>
 
 </nav>
@@ -59,7 +84,7 @@
     <input type="text" name="telephone" placeholder="Telephone" id="telephone">
     <input type="submit" name="register" value="Register" class="btn registersubmit">
 </form>
-<p class="alt">Already Have an account?, <a href="login.html" style="color: white;">Sign in</a></p>
+<p class="alt">Already Have an account?, <a href="#" onclick="openForm()" style="color: white;">Sign in</a></p>
 
 <footer class="footer" style="top: 490px;position: absolute; width: 1346px;">
 	<p class="toptitle contacts">Contact us</p>

@@ -6,23 +6,48 @@
 	<link rel="stylesheet" type="text/css" href="Css/style2.css">
 	<link rel="stylesheet" type="text/css" href="Css/footer.css">
 	<link rel="stylesheet" type="text/css" href="Css/style3.css">
-	<link rel="icon" type="image/png" href="images/profile.png">
+   <link rel="icon" type="image/png" href="images/profile.png">
+   <style>
+      #loginpage{
+  background-color: white;
+  width: 409px;
+  height: 190px;
+    left: -210px;
+    top: 40px;
+    position: absolute;
+    z-index: 1000;
+  display: none;
+ }
+   </style>
+   <script>
+      function openForm() {
+     document.getElementById("loginpage").style.display = "block";
+   }
+   function closeForm(){
+     document.getElementById("loginpage").style.display="none"
+   }
+   </script>
 </head>
 <body>
 <!-- Logo of the company -->
 <img class="logo" src="images/profile.png">
 <!-- Login/Register navigation bars -->
 <nav id="login_nav">
-	<a class="credentials" href="">Sign in</a>
+	<a class="credentials" href="#" onclick="openForm()">Sign in</a>
    <a class="credentials" href="register.html">Register</a>
-<div class="loginpage">
-   <form>
-      <input type="text" name="username" placeholder="Username" class="username">
-      <input type="password" name="passowrd" placeholder="Password" class="password">
-      <input type="submit" name="login" value="login" class="btn" id="loginbtn">
-   </form>
-   <p class="alt altlogin">No account yet?, <a href="register.html" style="color: #808080;">Register</a></p>
-</div>
+   <div id="loginpage">
+      <form>
+         <input type="text" name="username" placeholder="Username" class="username">
+         <input type="password" name="passowrd" placeholder="Password" class="password">
+         <input type="submit" name="login" value="login" class="btn" id="loginbtn">
+      </form>
+      <p class="alt altlogin">No account yet?, 
+       <a href="register.html" style="color: #808080;">Register</a>
+     </p>
+     <a href="#" onclick="closeForm()">
+       <img src="icons/close.svg" style="width: 15px;height: 15px;left:390px;top: 5px;position: absolute;">
+     </a>
+   </div>
 </nav>
 
 <!-- Quick links on the website navigation bar -->
