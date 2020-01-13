@@ -173,6 +173,7 @@ body{
 .loginpage{
 	background-color: white;
 	width: 409px;
+	justify-content: all;
 	height: 190px;
     left: -210px;
     top: 40px;
