@@ -12,35 +12,26 @@
 /* Popup container - can be anything you want */
 ::placeholder{
   color: #808080;
-};
-.popup {
-  position: absolute;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
+
 /* The actual popup */
-.popup .popuptext {
-  visibility: hidden;
+#popuptext {
   background-color: green;
-  color: #fff;
-  text-align: center;
+  color: white;
   border-radius: 6px;
   position: absolute;
   width: 300px;
   height: 200px;
+  display: none;
+  font-family: verdana;
+  top:20px;
+  position: relative;
+
 }
 
 /* Toggle this class - hide and show the popup */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
+
 
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
@@ -68,7 +59,12 @@
  document.getElementById("loginpage").style.display = "block";
 }
 function closeForm(){
- document.getElementById("loginpage").style.display="none"
+ document.getElementById("loginpage").style.display="none";
+}
+function answer1() {
+   document.getElementById("popuptext").style.display = "block";
+   document.getElementById("popuptext").style.color="yellow";
+   document.getElementById("popuptext").style.top="80px"
 }
 </script>
 </head>
@@ -122,16 +118,12 @@ function closeForm(){
 </div>
 <!-- Questions -->
 
-<div class="popup Questions qn1" onclick="myFunction()">Do you own all these type of goods?
-  <span class="popuptext" id="myPopup">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</span>
-</div>
-<script>
-// When the user clicks on div, open the popup
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
-</script>
+<p class="Questions qn1" onclick="answer1()">Do you own all these type of goods?</p>
+  <p id="popuptext">is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it to make a type 
+    specimen book. It has survived not only five centuries</p>
+
 <p class="Questions qn2">How do I cancel my order?</p>
 <p class="Questions qn3">When should one pay for the goods ordered?</p>
 <p class="Questions qn4">How long does it take to receive my order?</p>
@@ -178,7 +170,7 @@ function myFunction() {
 <p class="wecan">We can  <a href="" style="color: yellow; text-decoration: none;">Live chat</a></p>
 <p class="or">Or<br>Simply email us at:<br><a href="" style="color: yellow;text-decoration: none;">support@hirwa.rw</a></p></div>
 </div>
-</div>
+<//p>
 <footer class="footer footerproducts" style="width: 1364px;top: 850px;position: absolute;left:-15px;">
    <!-- Contact us -->
 
