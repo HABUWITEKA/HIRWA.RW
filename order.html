@@ -18,6 +18,9 @@
     z-index: 1000;
   display: none;
  }
+ ::placeholder{
+   color: green;
+ }
    </style>
    <script>
       function openForm() {
@@ -65,15 +68,89 @@
 <!--  -->
 
 <!-- Categories of products we have -->
-<div id="categories" style="width: 1361px;">
+<div id="categories" style="width: 1351px;">
 	<a class="cat" href="tools.html">Tools</a>
 	<a class="cat" href="medecines.html">Medecines</a>
 	<a class="cat" href="inputs.html">Inputs</a>
 	<a class="cat" href="freshfood.html">Fresh Food</a>
 </div>
 <!-- Image of the product the user selected -->
-<img src="images/input12.jfif" style="width: 300px;height: 450px;left: 220px;top: 150px;position: absolute;">
-<p class="nameinorder">Name of the product</p>
+<img src="images/input12.jfif" style="width: 300px;height: 500px;left: 20px;top: 120px;position: absolute;">
+<div style="top: -110px;position: relative;left: -60px;">
+  <p class="nameinorder">Name of the product</p>
 <p class="priceinorder">100,000 Rwf per Piece</p>
+<p class="prdctfact"><u>Details</u></p>
+<ul class="listfact">
+  <li>Distibutor: N/A</li>
+  <li>Country: Rwanda</li>
+  <li>Detail: N/A</li>
+  <li>Detail: N/A</li>
+  <li>Detail: N/A</li>
+</ul>
+<p class="descriptiontitle"><u>Description</u></p>
+<p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sequi porro. 
+  Esse numquam architecto,ratione deleniti,cupiditate consectetur quam nam excepturi quis laboriosam libero dolore. 
+  Totam, obcaecati vitae! Modi, ipsam? ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+  Quam provident corrupti, consequatur assumenda atque sit nostrum maiores tenetur suscipit voluptatum neque. 
+  Veniam velit voluptatum vel ut unde provident quibusdam quia.</p>
+</div>
+<div id="verseparator"></div>
+<form class="orderform"  >
+  <label>Quantity</label><br><br>
+  <input type="number" placeholder="Quantity(ex:2)" name="quantity" class="boxsize" ><br><br>
+  <label>Delivery place</label><br><br>
+  <select class="boxsize selectdistrict">
+    <option>Choose the delivery place(District)</option>
+    <option>GASABO</option>
+    <option>NYARUGENGE</option>
+    <option>KICUKIRO</option>
+    <option>NYAMAGABE</option>
+    <option>GASABO</option>
+    <option>NYARUGENGE</option>
+    <option>KICUKIRO</option>
+    <option>NYAMAGABE</option>
+  </select><br><br>
+  <label>Telephone</label><br><br>
+  <input type="telephone" placeholder="Your Phone number" name="telephone" class="boxsize"><br><br>
+  <label>Other Specifications:</label><br><br>
+  <textarea placeholder="Your specifications here"></textarea>
+  <input type="submit" name="orderbutton" value="Order" class="btn" style="width: 100px; height: 30px;font-size:20px; top:10px; left: 150px; ; position: relative;">
+  </form>
+  <!-- the footer -->
+<footer class="footer footerproducts" style="top: 630px;position: absolute;width: 1359px;">
+	<p class="toptitle contacts">Contact us</p>
+   <img class="footerlinks phoneicon" src="icons/phone.svg">
+   <p class="phonenumber">+250 787 282 620</p>
+   <img class="footerlinks emailicon" src="icons/mail.svg">
+   <p class="email">Support@hirwa.rw</p>
+   <img class="footerlinks locationicon" src="icons/map.svg">
+   <p class="location">KG 7, AVE</p>
+
+   <!-- Links%quicklinks -->
+   <p class="toptitle links">Links</p>
+   <img class="footerlinks homeicon" src="icons/homee.svg">
+   <a href="index.html"><p class="quicklink link1">Home</p></a>
+   <img class="footerlinks producticon" src="icons/cart.svg">
+   <a href="index.html"><p class="quicklink link2">Products</p></a>
+   <img class="footerlinks aboutusicon" src="icons/info.svg">
+   <a href="index.html"><p class="quicklink link3">About us</p></a>
+
+   <!-- subscribe -->
+   <p class="subscribe">Subscribe to our newsletter</p>
+   <form>
+      <input type="text" name="subscribe" placeholder="Your email" class="subscribeinput">
+      <input type="submit" name="subscribebutton" value="Subscribe" class="subscribebutton">
+   </form>
+   <!-- lineseparator -->
+   <div class="lineseparator"></div>
+   <!-- social medias -->
+   <div id="socialicons">
+   <img class="socialmedia" src="icons/facebook.svg">
+   <img class="socialmedia" src="icons/instagram.svg">
+   <img class="socialmedia" src="icons/twitter.svg">
+   <img class="socialmedia" src="icons/youtube.svg">
+</div>
+<p class="copyrights">Copyrights Hirwa Supply Ltd. 2019</p>
+</footer>
     </body>
 </html>
