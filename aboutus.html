@@ -61,6 +61,9 @@
 function closeForm(){
  document.getElementById("loginpage").style.display="none";
 }
+function closepopup(){
+  document.getElementById("popuptext").style.display = "none";
+}
 function answer1() {
    document.getElementById("popuptext").style.display = "block";
    document.getElementById("popuptext").style.color="yellow";
@@ -122,7 +125,7 @@ function answer1() {
   <p id="popuptext">is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
     when an unknown printer took a galley of type and scrambled it to make a type 
-    specimen book. It has survived not only five centuries</p>
+    specimen book. It has survived not only five centuries <button style="left: 115px; top: 10px; position: relative;" onclick="closepopup()">close</button></p>
 
 <p class="Questions qn2">How do I cancel my order?</p>
 <p class="Questions qn3">When should one pay for the goods ordered?</p>
